@@ -4,4 +4,6 @@ cmake_minimum_required(VERSION 3.12)
 project(Data_Structure)
 set(CMAKE_CXX_STANDARD 14)
 #生成可执行程序 语法:add_executable(可执行程序名 要编译的cpp)
-add_executable(Data_Structure LinkList.cpp)
+add_executable(Data_Structure LinkList/LinkList.cpp
+        Stack/ShStack.cpp)
+add_executable(Stack Stack/Stack.cpp)
