@@ -1,6 +1,9 @@
 //
 // Created by 78410 on 2024/3/1.
 //
+//冒泡排序的基本思想是每次将一个最值排序到数组的最后位置
+//通过不断遍历数组，比较两位数的值，发生数值交换，从而达到将最值排序到数组最后的位置
+//该算法是稳定的
 #include<iostream>
 #include<vector>
 using namespace std;
