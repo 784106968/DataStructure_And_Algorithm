@@ -50,11 +50,23 @@ void QuickSort(vector<int>&a,int left,int right){
 }
 
 int main(){
-    vector<int>a={124,254,23,62,899,122};
-    QuickSort(a,0,a.size()-1);
-    for(int i=0;i<a.size();i++){
+    int n;
+    cout<<"请输入数组长度：";
+    cin>>n;
+    vector<int>a(n);
+    srand(time(0));
+    for(int i=0;i<n;i++){
+        a[i]=rand()%100;
+    }
+    cout<<"未排序的数组为：";
+    for(int i=0;i<n;i++){
         cout<<a[i]<<" ";
     }
     cout<<endl;
+    QuickSort(a,0,n-1);
+    cout<<"排序好的数组为：";
+    for(int i=0;i<n;i++){
+        cout<<a[i]<<" ";
+    }
     return 0;
 }

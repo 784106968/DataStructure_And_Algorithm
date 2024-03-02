@@ -6,6 +6,7 @@
 //该算法是稳定的
 #include<iostream>
 #include<vector>
+#include<time.h>
 using namespace std;
 
 void Swap(int &a,int &b){
@@ -13,14 +14,24 @@ void Swap(int &a,int &b){
     a=b;
     b=temp;
 }
+
+void print(vector<int>a){
+    for(int i=0;i<a.size();i++){
+        cout<<a[i]<<" ";
+    }
+    cout<<endl;
+}
+
 //冒泡排序
 void BubbleSort(vector<int>&a,int left,int right){
     for(int i=left+1;i<=right;i++){
-        for(int j=left;j<=right-i+1;j++){
+        for(int j=left;j<right-i+1;j++){
             if(a[j]>a[j+1]){
-                Swap(a[j+1],a[j]);
+                Swap(a[j],a[j+1]);
             }
         }
+        cout<<"第"<<i<<"次冒泡结果：";
+        print(a);
     }
 }
 
@@ -29,15 +40,16 @@ int main(){
     cout<<"请输入数组长度：";
     cin>>n;
     vector<int>a(n);
+    srand(time(0));
     for(int i=0;i<n;i++){
-        cin>>a[i];
+        a[i]=rand()%100;
     }
     cout<<"未排序的数组为：";
     for(int i=0;i<n;i++){
         cout<<a[i]<<" ";
     }
     cout<<endl;
-    BubbleSort(a,1,n-2);
+    BubbleSort(a,0,n-1);
     cout<<"排序好的数组为：";
     for(int i=0;i<n;i++){
         cout<<a[i]<<" ";
