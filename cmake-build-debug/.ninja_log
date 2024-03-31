@@ -1,0 +1,19 @@
+# ninja log v5
+3	276	7310520965958900	CMakeFiles/SelectionSort.dir/Algorithm/SortAlgorithm/SelectionSort.cpp.obj	6dad2a568ca84759
+222	319	7224377182475074	DFS.exe	25d4f999e58b47b3
+440	684	7225406454128050	Data_Structure.exe	ff916274ff6ad7bd
+379	572	7228054247280132	SqQueue.exe	399a9c5ef93ac349
+1	98	7335554205651944	build.ninja	7167f478d1a0ada0
+608	1078	7224352367764065	Stack.exe	fab8eb794b4be7c4
+252	366	7225436102037693	LiStack.exe	64b7349ef7b107c8
+840	932	7310505468416525	QuickSort.exe	75cc8ff3ce3bfbe7
+656	754	7300402295099159	Hashmap.exe	cad50ec29e15d2f7
+730	829	7308141385895521	Binary.exe	4106d5d9ddf4585c
+3	840	7310505467505483	CMakeFiles/QuickSort.dir/Algorithm/SortAlgorithm/QuickSort.cpp.obj	675443d78fe17590
+4	377	7310505076173366	CMakeFiles/MergeSort.dir/Algorithm/SortAlgorithm/MergeSort.cpp.obj	3d42f64e4f1ab231
+378	498	7310505077347152	MergeSort.exe	3e9c6f57127eaa2c
+2	254	7310523903737208	CMakeFiles/BubbleSort.dir/Algorithm/SortAlgorithm/BubbleSort.cpp.obj	936e6b34a2ed3232
+254	352	7310523904692781	BubbleSort.exe	b3ea00109b1e03d3
+3	269	7310504855756206	CMakeFiles/InsertSort.dir/Algorithm/SortAlgorithm/InsertSort.cpp.obj	8995e9074f03ea71
+270	420	7310504857250465	InsertSort.exe	ab9fbdc98ebc4053
+277	370	7310520966861784	SelectionSort.exe	bb0e2bc41b36581c

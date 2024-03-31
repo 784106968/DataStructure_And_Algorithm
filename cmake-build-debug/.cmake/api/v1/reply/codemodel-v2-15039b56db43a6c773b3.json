@@ -1,0 +1,168 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "DataStructure_And_Algorithm",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "BinaryTree::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BinaryTree-Debug-0eedb17311bd7a6f4841.json",
+					"name" : "BinaryTree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BubbleSort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BubbleSort-Debug-f8ab1aa07466302eb6f3.json",
+					"name" : "BubbleSort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DFS::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DFS-Debug-ae5cff6bf706dfcd52fa.json",
+					"name" : "DFS",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Hashmap::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Hashmap-Debug-b903fe1888bc4a610919.json",
+					"name" : "Hashmap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "InsertSort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-InsertSort-Debug-7aea101695b55f02e96a.json",
+					"name" : "InsertSort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LiStack::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LiStack-Debug-b72d787e0211e66719e1.json",
+					"name" : "LiStack",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LinkList::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LinkList-Debug-b1ebd300713d52309656.json",
+					"name" : "LinkList",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MergeSort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MergeSort-Debug-64d82efae371a42a7aea.json",
+					"name" : "MergeSort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QuickSort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QuickSort-Debug-0764b41756c9c94132bb.json",
+					"name" : "QuickSort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SelectionSort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SelectionSort-Debug-aac63cce1a01a0cbe332.json",
+					"name" : "SelectionSort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ShStack::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ShStack-Debug-c3421b2839b2e9f9d663.json",
+					"name" : "ShStack",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SqQueue::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SqQueue-Debug-c788e3f4abd21f212f29.json",
+					"name" : "SqQueue",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Stack::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Stack-Debug-eac247fb4f82775fb8a8.json",
+					"name" : "Stack",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/78410/CLionProjects/DataStructure_And_Algorithm/cmake-build-debug",
+		"source" : "C:/Users/78410/CLionProjects/DataStructure_And_Algorithm"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
