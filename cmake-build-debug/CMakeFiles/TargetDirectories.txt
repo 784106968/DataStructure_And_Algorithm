@@ -11,5 +11,7 @@ C:/Users/78410/CLionProjects/DataStructure_And_Algorithm/cmake-build-debug/CMake
 C:/Users/78410/CLionProjects/DataStructure_And_Algorithm/cmake-build-debug/CMakeFiles/InsertSort.dir
 C:/Users/78410/CLionProjects/DataStructure_And_Algorithm/cmake-build-debug/CMakeFiles/SelectionSort.dir
 C:/Users/78410/CLionProjects/DataStructure_And_Algorithm/cmake-build-debug/CMakeFiles/BinaryTree.dir
+C:/Users/78410/CLionProjects/DataStructure_And_Algorithm/cmake-build-debug/CMakeFiles/HeapSort.dir
+C:/Users/78410/CLionProjects/DataStructure_And_Algorithm/cmake-build-debug/CMakeFiles/LinkQueue.dir
 C:/Users/78410/CLionProjects/DataStructure_And_Algorithm/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/78410/CLionProjects/DataStructure_And_Algorithm/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -469,6 +469,72 @@ build BinaryTree.exe: CXX_EXECUTABLE_LINKER__BinaryTree_Debug CMakeFiles/BinaryT
   TARGET_IMPLIB = libBinaryTree.dll.a
   TARGET_PDB = BinaryTree.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target HeapSort
+
+
+#############################################
+# Order-only phony target for HeapSort
+
+build cmake_object_order_depends_target_HeapSort: phony || CMakeFiles/HeapSort.dir
+
+build CMakeFiles/HeapSort.dir/Algorithm/SortAlgorithm/HeapSort.cpp.obj: CXX_COMPILER__HeapSort_unscanned_Debug C$:/Users/78410/CLionProjects/DataStructure_And_Algorithm/Algorithm/SortAlgorithm/HeapSort.cpp || cmake_object_order_depends_target_HeapSort
+  DEP_FILE = CMakeFiles\HeapSort.dir\Algorithm\SortAlgorithm\HeapSort.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\HeapSort.dir
+  OBJECT_FILE_DIR = CMakeFiles\HeapSort.dir\Algorithm\SortAlgorithm
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target HeapSort
+
+
+#############################################
+# Link the executable HeapSort.exe
+
+build HeapSort.exe: CXX_EXECUTABLE_LINKER__HeapSort_Debug CMakeFiles/HeapSort.dir/Algorithm/SortAlgorithm/HeapSort.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\HeapSort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = HeapSort.exe
+  TARGET_IMPLIB = libHeapSort.dll.a
+  TARGET_PDB = HeapSort.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target LinkQueue
+
+
+#############################################
+# Order-only phony target for LinkQueue
+
+build cmake_object_order_depends_target_LinkQueue: phony || CMakeFiles/LinkQueue.dir
+
+build CMakeFiles/LinkQueue.dir/DataStructure/Queue/LinkQueue.cpp.obj: CXX_COMPILER__LinkQueue_unscanned_Debug C$:/Users/78410/CLionProjects/DataStructure_And_Algorithm/DataStructure/Queue/LinkQueue.cpp || cmake_object_order_depends_target_LinkQueue
+  DEP_FILE = CMakeFiles\LinkQueue.dir\DataStructure\Queue\LinkQueue.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\LinkQueue.dir
+  OBJECT_FILE_DIR = CMakeFiles\LinkQueue.dir\DataStructure\Queue
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target LinkQueue
+
+
+#############################################
+# Link the executable LinkQueue.exe
+
+build LinkQueue.exe: CXX_EXECUTABLE_LINKER__LinkQueue_Debug CMakeFiles/LinkQueue.dir/DataStructure/Queue/LinkQueue.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\LinkQueue.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = LinkQueue.exe
+  TARGET_IMPLIB = libLinkQueue.dll.a
+  TARGET_PDB = LinkQueue.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -503,11 +569,15 @@ build DFS: phony DFS.exe
 
 build Hashmap: phony Hashmap.exe
 
+build HeapSort: phony HeapSort.exe
+
 build InsertSort: phony InsertSort.exe
 
 build LiStack: phony LiStack.exe
 
 build LinkList: phony LinkList.exe
+
+build LinkQueue: phony LinkQueue.exe
 
 build MergeSort: phony MergeSort.exe
 
@@ -529,7 +599,7 @@ build Stack: phony Stack.exe
 #############################################
 # Folder: C:/Users/78410/CLionProjects/DataStructure_And_Algorithm/cmake-build-debug
 
-build all: phony Stack.exe DFS.exe ShStack.exe LiStack.exe LinkList.exe SqQueue.exe Hashmap.exe QuickSort.exe MergeSort.exe BubbleSort.exe InsertSort.exe SelectionSort.exe BinaryTree.exe
+build all: phony Stack.exe DFS.exe ShStack.exe LiStack.exe LinkList.exe SqQueue.exe Hashmap.exe QuickSort.exe MergeSort.exe BubbleSort.exe InsertSort.exe SelectionSort.exe BinaryTree.exe HeapSort.exe LinkQueue.exe
 
 # =============================================================================
 # Built-in targets

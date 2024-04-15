@@ -1,7 +1,7 @@
 //
 // Created by 78410 on 2023/11/27.
 //
-//循环队列：
+//循环队列：方便最大限度利用空间，且防止假溢出现象
 #include <iostream>
 
 using namespace std;
@@ -29,6 +29,7 @@ bool QueueEmpty(SqQueue Q){
 
 //入队操作：
 bool EnQueue(SqQueue &Q,int x){
+    //循环队列判断队满：牺牲一个空间，当头指针在尾指针的下一位代表队列满
     if((Q.rear+1)%MAXSIZE==Q.front){
         return false;
     }
